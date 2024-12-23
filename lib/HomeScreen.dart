@@ -27,8 +27,8 @@ class _HomeScreenState extends State<HomeScreen> {
 
     // print("Check RazorPay_Key_ID >> "+RazorPay_Key_ID.toString());
     var options = {
-      'key': "rzp_test_6SCaRfgAu27hKl",
-      // 'key': RazorPay_Key_ID.toString(),
+
+       'key': RazorPay_Key_ID.toString(),
       // 'order_id':orderid,
       'timeout':'600',
       'amount': (50 * 100).toString(),
